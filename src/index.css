@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  
+  --color-brand-50: #f4f6f8;
+  --color-brand-100: #e7ebf0;
+  --color-brand-200: #c2cbd6;
+  --color-brand-300: #9cb1bf;
+  --color-brand-400: #6f8fa3;
+  --color-brand-500: #4a6f88;
+  --color-brand-600: #38566b;
+  --color-brand-700: #293e4f;
+  --color-brand-800: #1b2833;
+  --color-brand-900: #0f161d;
+  --color-brand-950: #080b0f;
+  
+  --color-accent-50: #fbf9f4;
+  --color-accent-100: #f5eedb;
+  --color-accent-200: #ebdcb7;
+  --color-accent-300: #dec58e;
+  --color-accent-400: #cfaa65;
+  --color-accent-500: #bc8e43;
+  --color-accent-600: #9f7335;
+  --color-accent-700: #7e572a;
+  --color-accent-800: #5c3e21;
+  --color-accent-900: #3e2717;
+  --color-accent-950: #21130a;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #fcfdfd;
+  color: #1b2833;
+}
+
+/* Custom smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}

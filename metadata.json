@@ -1,0 +1,6 @@
+{
+  "name": "Estudio Procesal Civil y Mercantil",
+  "description": "Asesoría legal especializada, redacción de escritos, recursos y estrategia procesal en materia civil y mercantil por el Mtr. Erick Cruz.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
